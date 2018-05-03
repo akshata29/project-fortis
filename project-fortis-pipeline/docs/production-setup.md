@@ -38,7 +38,7 @@ More details on TLS setup can be found [here](./tls-setup.md).
 
 Hit the deploy to Azure button below:
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/catalystcode/project-fortis/tree/master?ptmpl=azuredeploy.parameters.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/akshata29/project-fortis/tree/master?ptmpl=azuredeploy.parameters.json)
 
 [Fill in the wizard](./azure-deploy-parameters.md) that comes up:
 
@@ -49,7 +49,7 @@ complete.
 
 ## Post Deployment
 
-If you set up TLS, remember to do the [TLS post deployment steps](https://github.com/CatalystCode/project-fortis/blob/master/project-fortis-pipeline/docs/tls-setup.md#post-deployment-steps) and [AAD post deployment steps](https://github.com/CatalystCode/project-fortis/blob/master/project-fortis-pipeline/docs/aad-setup.md#post-deployment-steps) before viewing your site. Then, click on the `Manage your resources`
+If you set up TLS, remember to do the [TLS post deployment steps](https://github.com/akshata29/project-fortis/blob/master/project-fortis-pipeline/docs/tls-setup.md#post-deployment-steps) and [AAD post deployment steps](https://github.com/akshata29/project-fortis/blob/master/project-fortis-pipeline/docs/aad-setup.md#post-deployment-steps) before viewing your site. Then, click on the `Manage your resources`
 (highlighted below).
 
 ![Screenshot of ARM template after successful deployment with highlight of management link to access the newly created resource group](https://user-images.githubusercontent.com/1086421/33331326-4437a7fe-d42f-11e7-8b4a-19b968b4705b.png)
@@ -85,4 +85,4 @@ you originally deployed your Fortis site. Look for the resource named `fortisDep
 and copy its IP address.
 
 The value for `RELEASE_TO_INSTALL` is the version of Fortis to which you wish to
-update. A full list of all supported versions can be found on our [Github releases page](https://github.com/CatalystCode/project-fortis/releases).
+update. A full list of all supported versions can be found on our [Github releases page](https://github.com/akshata29/project-fortis/releases).
